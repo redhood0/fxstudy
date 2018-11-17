@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import org.kordamp.bootstrapfx.scene.layout.Panel?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.geometry.Insets?>
+<GridPane xmlns="http://javafx.com/javafx"
+          xmlns:fx="http://javafx.com/fxml"
+          fx:controller="com.niit.fxstudy.FirstController"
+          hgap="30" vgap="10" alignment="BASELINE_CENTER">
+
+    <padding>
+        <Insets top="10" left="240" bottom="20" right="240"/>
+    </padding>
+    <Panel GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.hgrow="ALWAYS"
+           styleClass="panel-default" prefWidth="360" prefHeight="400">
+        <heading>
+            <Label styleClass="h3" text="故事"/>
+        </heading>
+        <body>
+
+            <VBox spacing="20" alignment="BASELINE_CENTER">
+                <Label text="真实或虚幻的故事"/>
+
+                <ImageView>
+
+                    <Image url="/img/1.png"/>
+                </ImageView>
+
+                <padding>
+                    <Insets top="10" bottom="10" left="30"/>
+                </padding>
+
+            </VBox>
+        </body>
+    </Panel>
+
+    <Panel GridPane.columnIndex="1" GridPane.rowIndex="0" GridPane.hgrow="ALWAYS"
+           styleClass="panel-success" prefWidth="360" prefHeight="400">
+        <heading>
+            <Label styleClass="h3" text="摄影"/>
+        </heading>
+        <body>
+            <VBox spacing="20" alignment="BASELINE_CENTER">
+                <Label text="真实或虚幻的故事"/>
+                <ImageView>
+                    <Image url="/img/1.png"/>
+                </ImageView>
+                <padding>
+                    <Insets top="10" bottom="10" left="30"/>
+                </padding>
+            </VBox>
+        </body>
+    </Panel>
+
+    <Panel GridPane.columnIndex="2" GridPane.rowIndex="0" GridPane.hgrow="ALWAYS"
+           styleClass="panel-info" prefWidth="360" prefHeight="400">
+        <heading>
+            <Label styleClass="h3" text="旅行"/>
+        </heading>
+        <body>
+            <VBox spacing="20" alignment="BASELINE_CENTER">
+                <Label text="真实或虚幻的故事"/>
+                <ImageView>
+                    <Image url="/img/1.png"/>
+                </ImageView>
+                <padding>
+                    <Insets top="10" bottom="10" left="30"/>
+                </padding>
+            </VBox>
+        </body>
+    </Panel>
+
+    <Panel GridPane.columnIndex="0" GridPane.rowIndex="1" GridPane.hgrow="ALWAYS"
+           styleClass="panel-warning" prefWidth="360" prefHeight="400">
+        <heading>
+            <Label styleClass="h3" text="故事"/>
+        </heading>
+        <body>
+            <VBox spacing="20" alignment="BASELINE_CENTER">
+                <Label text="真实或虚幻的故事"/>
+                <ImageView>
+                    <Image url="/img/1.png"/>
+                </ImageView>
+                <padding>
+                    <Insets top="10" bottom="10" left="30"/>
+                </padding>
+            </VBox>
+        </body>
+    </Panel>
+
+    <Panel GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.hgrow="ALWAYS"
+           styleClass="panel-primary" prefWidth="360" prefHeight="400">
+        <heading>
+            <Label styleClass="h3" text="摄影"/>
+        </heading>
+        <body>
+            <VBox spacing="20" alignment="BASELINE_CENTER">
+                <Label text="真实或虚幻的故事"/>
+                <ImageView>
+                    <Image url="/img/1.png"/>
+                </ImageView>
+                <padding>
+                    <Insets top="10" bottom="10" left="30"/>
+                </padding>
+            </VBox>
+        </body>
+    </Panel>
+
+    <Panel GridPane.columnIndex="2" GridPane.rowIndex="1" GridPane.hgrow="ALWAYS"
+           styleClass="panel-danger" prefWidth="360" prefHeight="400">
+        <heading>
+            <Label styleClass="h3" text="旅行"/>
+        </heading>
+        <body>
+            <VBox spacing="20" alignment="BASELINE_CENTER">
+                <Label text="真实或虚幻的故事"/>
+                <ImageView>
+                    <Image url="/img/1.png"/>
+                </ImageView>
+                <padding>
+                    <Insets top="10" bottom="10" left="30"/>
+                </padding>
+            </VBox>
+        </body>
+    </Panel>
+
+</GridPane>
